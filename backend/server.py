@@ -9,8 +9,8 @@ CORS(app)
 connection = pymysql.connect(
     host='localhost',
     user='root',
-    password='mysql',
-    database='student',
+    password='',   #you mysql password
+    database='', # your database name
 )
 
 
